@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulsGames</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin:auto;
+            font-family: 'Staatliches', cursive;
+            color: #FFCB74;
+        }
+        header{
+            background-color:#07031A;
+        }
+        img{
+            margin-left:50px;
+            height:100px;
+
+        }
+        nav{
+            display: flex;
+            flex-direction:column;
+            height:90px;
+            background-color: #4F8A8B;
+        
+        }
+
+        .menu{
+            display: flex;
+            flex-direction: row;
+            margin:10px;
+            padding: 1px 1px;
+            
+        }
+        .menu1{
+            background-color: #B1B493;
+            color: #FFCB74;
+            margin:10px;
+            display: flex;
+            justify-content: center;
+            width:auto;
+            padding: 10px 100px;
+            border: 1px solid #FFCB74;
+        }
+        .link{
+            text-decoration: none;
+            color: #FFCB74;
+            font-size:30px;
+    
+        }
+        .Destaque{
+            text-align: center;
+            display: grid;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            justify-content: center;
+        }
+
+        .Destaque p{
+          font-size:45px;
+        }
+        .griddestaque{
+            border-radius: 25px 25px;
+            background-color: #4F8A8B;
+            margin :1px;
+            border: 1px solid #4F8A8B;
+            height:390px;
+            width:350px;
+        
+        }
+        .griddestaque img{
+            margin:auto;
+            width: 300px;
+            height:350px;
+            padding:30px;
+        
+        }
+        h1{
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <img src="souls.png">
+    </header>
+    <div></div>
+    <nav>
+        <table>
+            <ul class="menu">
+                <li class="menu1"><a href="soulsGames.html" class="link">inicio</a></li>
+                <li class="menu1"><a href="consoles.html" class="link">consoles</a></li>
+                <li class="menu1"><a href="games.html" class="link">games</a></li>
+            </ul>
+        </table>
+    </nav>
+    <section class="Destaque">
+        <h1>Promoções</h1>
+        <p>DemonSouls</p>
+        <div class="griddestaque"><img src="demon souls.jpg" alt=""></div>
+        <p>preço:R$199</p>
+        <br>
+        <p>Elden ring</p>
+        <div class="griddestaque"><img src="elden ring.jpg" alt=""></div>
+        <p>preço:R$150</p>
+        <p>Assasins creed Mirage</p>
+        <div class="griddestaque"><img src="assasins creed mirage.jpg" alt=""></div>
+        <p>preço:R$250</p>
+    </section>
+    
+</body>
+</html>
